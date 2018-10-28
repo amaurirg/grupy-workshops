@@ -1,0 +1,1 @@
+web: gunicorn grupy_workshops.wsgi --log-file -
