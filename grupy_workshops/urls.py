@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from grupy_workshops.core.views import home
 from django.urls import path
+from grupy_workshops.core.views import home, event
 
 
 urlpatterns = [
     path('', home),
-    path('admin/', admin.site.urls),
+    path('event/', event),
+    path('admin/', admin.site.urls)
 ]

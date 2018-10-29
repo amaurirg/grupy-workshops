@@ -1,0 +1,64 @@
+Pressionando o botão
+
+{
+  'update_id': 176753197,
+  'callback_query': {
+    'id': '861562992212392879',
+    'from': {
+      'id': 200598266,
+      'is_bot': False,
+      'first_name': 'Amauri',
+      'last_name': 'Rossetti Giovani',
+      'username': 'agiovani',
+      'language_code': 'pt-BR'
+    },
+    'message': {
+      'message_id': 1770,
+      'from': {
+        'id': 410592365,
+        'is_bot': True,
+        'first_name': 'Bot Vote',
+        'username': 'BotVoteLive_bot'
+      },
+      'chat': {
+        'id': 200598266,
+        'first_name': 'Amauri',
+        'last_name': 'Rossetti Giovani',
+        'username': 'agiovani',
+        'type': 'private'
+      },
+      'date': 1540772224,
+      'text': 'Teclado'
+    },
+    'chat_instance': '-2908446788238385947',
+    'data': 'yo'
+  }
+}
+
+
+
+Sem pressionar o botão
+
+{
+  'update_id': 176753202,
+  'message': {
+    'message_id': 1783,
+    'from': {
+      'id': 200598266,
+      'is_bot': False,
+      'first_name': 'Amauri',
+      'last_name': 'Rossetti Giovani',
+      'username': 'agiovani',
+      'language_code': 'pt-BR'
+    },
+    'chat': {
+      'id': 200598266,
+      'first_name': 'Amauri',
+      'last_name': 'Rossetti Giovani',
+      'username': 'agiovani',
+      'type': 'private'
+    },
+    'date': 1540772715,
+    'text': 'teste'
+  }
+}
