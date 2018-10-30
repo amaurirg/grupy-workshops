@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'grupy_workshops.core',
+    'grupy_workshops.core.apps.CoreConfig',
 ]
 
 MIDDLEWARE = [
