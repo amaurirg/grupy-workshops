@@ -62,3 +62,39 @@ Sem pressionar o botão
     'text': 'teste'
   }
 }
+
+
+
+
+{
+  'chat_id': 200598266,
+  'text': 'Escolha um workshop que você gostaria que o Grupy-SP fizesse:',
+  'reply_markup': {
+    'inline_keyboard': [
+      [
+        {
+          'text': 'Python Básico',
+          'callback_data': 'Python Básico'
+        }
+      ],
+      [
+        {
+          'text': 'HTML',
+          'callback_data': 'HTML'
+        }
+      ],
+      [
+        {
+          'text': 'Django',
+          'callback_data': 'Django'
+        }
+      ],
+      [
+        {
+          'text': 'Docker',
+          'callback_data': 'Docker'
+        }
+      ]
+    ]
+  }
+}
